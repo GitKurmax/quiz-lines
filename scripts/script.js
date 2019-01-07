@@ -251,6 +251,7 @@ function quiz(){
 					}
 				}
 				button.disabled = true;
+				button.classList.toggle("active");
 			});
 		}
 	}
